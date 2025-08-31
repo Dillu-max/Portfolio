@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ameer Suhel Mohammed | Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-900">
+  <!-- Header -->
+  <header class="bg-white shadow p-6">
+    <h1 class="text-3xl font-bold">Ameer Suhel Mohammed</h1>
+    <p class="text-gray-600">Epic & SAP HANA Developer | Data & ETL Specialist</p>
+  </header>
+
+  <!-- About Section -->
+  <section class="p-6 max-w-4xl mx-auto">
+    <h2 class="text-2xl font-semibold mb-4">About Me</h2>
+    <p>
+      I am a healthcare IT professional specializing in Epic Cogito, Clarity, Caboodle, SSIS, and SAP HANA development. 
+      My expertise includes ETL pipelines, database optimization, and building data-driven dashboards that improve clinical decision-making.
+    </p>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="p-6 max-w-4xl mx-auto">
+    <h2 class="text-2xl font-semibold mb-4">Projects</h2>
+    <div class="grid md:grid-cols-2 gap-6">
+      <!-- Project 1 -->
+      <div class="bg-white rounded-xl shadow p-4">
+        <h3 class="text-xl font-bold">📊 Power BI ED Visits Dashboard</h3>
+        <p>Analyzed emergency department visits with demographics, complaints, and outcomes using Power BI connected to SAP HANA.</p>
+        <a href="https://github.com/yourusername/ed-visits-dashboard" class="text-blue-600">View on GitHub →</a>
+      </div>
+      <!-- Project 2 -->
+      <div class="bg-white rounded-xl shadow p-4">
+        <h3 class="text-xl font-bold">⚙️ SSIS ETL Automation</h3>
+        <p>Developed ETL workflows with C# scripts to extract, transform, and load healthcare data securely via SFTP.</p>
+        <a href="https://github.com/yourusername/ssis-etl-automation" class="text-blue-600">View on GitHub →</a>
+      </div>
+      <!-- Project 3 -->
+      <div class="bg-white rounded-xl shadow p-4">
+        <h3 class="text-xl font-bold">💾 SAP HANA Calculation Views</h3>
+        <p>Built optimized calculation views for Caboodle and Epic reporting to reduce query latency and improve performance.</p>
+        <a href="https://github.com/yourusername/sap-hana-calcviews" class="text-blue-600">View on GitHub →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="p-6 max-w-4xl mx-auto">
+    <h2 class="text-2xl font-semibold mb-4">Contact</h2>
+    <p>📧 <a href="mailto:youremail@example.com" class="text-blue-600">youremail@example.com</a></p>
+    <p>🔗 <a href="https://www.linkedin.com/in/yourlinkedin/" class="text-blue-600">LinkedIn</a></p>
+    <p>💻 <a href="https://github.com/yourusername" class="text-blue-600">GitHub</a></p>
+  </section>
+</body>
+</html>
